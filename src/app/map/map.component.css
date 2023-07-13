@@ -1,3 +1,6 @@
+#mapComponent {
+  width: 100%
+}
 path:hover {
-  fill: grey;
+  fill: antiquewhite;
 }
