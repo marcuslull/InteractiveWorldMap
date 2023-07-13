@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'd280App';
+  title = 'Interactive World Map';
+  id = "";
+  // @ts-ignore
+  send(id) {
+    this.id = id;
+  }
 }
