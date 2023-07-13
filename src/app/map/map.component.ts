@@ -9,15 +9,15 @@ export class MapComponent{
   @Output() emitter = new EventEmitter<any>()
 
   getValue() {
-    // @ts-ignore
-    const currentElement = event.target;
-    // @ts-ignore
-    const id = currentElement.getAttribute("id")
-    this.emitter.emit(id);
+      // @ts-ignore
+      const currentElement = event.target;
+      // @ts-ignore
+      const id = currentElement.getAttribute("id")
+    if (id != null) {
+      this.emitter.emit(id);
+    }
   }
 }
-
-// (mouseover)="getValue()"
 
 
 
