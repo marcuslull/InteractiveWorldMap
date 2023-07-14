@@ -1,6 +1,7 @@
-#mapComponent {
+svg {
   width: 100%
 }
 path:hover {
   fill: antiquewhite;
+  cursor: crosshair;
 }

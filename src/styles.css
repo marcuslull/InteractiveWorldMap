@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
 body {
-  background-color: slategrey;
+  margin: 0;
+  background-color: #85a2b4;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+

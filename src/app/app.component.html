@@ -2,12 +2,17 @@
   <h1>{{title}}</h1>
 </header>
 <main>
-  <div id="framework">
     <app-map (emitter)="send($event)" id="map"></app-map>
     <app-info [id]="id" id="info"></app-info>
-  </div>
 </main>
 <footer>
-  <h1>Footer</h1>
+  <div id="cite">
+    <p>API - <a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/898581-api-basic-call-structures">The World Bank</a></p>
+    <p>SVG - <a href="https://www.wgu.edu/">Western Governors University</a></p>
+    <p>An Angular project</p>
+  </div>
+  <div id="copy">
+    <p>© 2023 Marcus Lull. All rights reserved.</p>
+  </div>
 </footer>
 <router-outlet></router-outlet>
